@@ -18,8 +18,10 @@ public class AppTest {
 		System.setProperty("webdriver.gecko.driver", "C:\\Selenium\\geckodriver.exe");
 		WebDriver driver= new FirefoxDriver();
 		driver.manage().window().maximize();
+		System.out.println("Hi");
 		driver.get("https://www.ultimatix.net");
 		driver.close();
+		
 		
 		
 	}
